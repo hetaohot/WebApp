@@ -29,7 +29,7 @@
         <server>TomcatServer</server>
         <username>admin</username>
         <password>password</password>
-        <path>/info</path>
+        <path>/hello</path>
     </configuration>
 </plugin>
    <plugin>
@@ -101,12 +101,12 @@
                 <artifactId>tomcat8-maven-plugin</artifactId>
                 <version>2.1</version>
                 <configuration>
-                    <url>http://localhist:8082/manager/text</url>
+                    <url>http://localhost:8082/manager/text</url>
                     <update>true</update>
                     <server>TomcatServer</server>
                     <username>admin</username>
                     <password>password</password>
-                    <path>/info</path>
+                    <path>/hello</path>
                 </configuration>
             </plugin>
         </plugins>
